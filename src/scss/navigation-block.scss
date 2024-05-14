@@ -1,0 +1,35 @@
+.navigation-block {
+
+    &__list {
+        display: flex;
+        gap: .5rem;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: $accent #fff;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__item-text {
+        white-space: nowrap;
+        color: $gray;
+        font-family: TT Lakes;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        text-align: left;
+        align-self: center;
+        padding-block: 0.5rem;
+        padding-inline: clamp(0.5rem, 1rem, 1.375rem);
+    }
+
+    &__item:hover,
+    &__item:focus {
+        border: 2px solid $lightGreen;
+        border-radius: 6px;
+        background-color: $backgrWhite;
+    }
+
+}

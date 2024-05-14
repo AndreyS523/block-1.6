@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Regular.eot);
+  src: url(../fonts/TTLakes-Regular.eot) format('embedded-opentype'),
+    url(../fonts/TTLakes-Regular.woff) format('woff'),
+    url(../fonts/TTLakes-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Bold.eot);
+  src: url(../fonts/TTLakes-Bold.eot) format('embedded-opentype'),
+    url(../fonts/TTLakes-Bold.woff) format('woff'),
+    url(../fonts/TTLakes-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Medium.eot);
+  src: url(../fonts/TTLakes-Medium.eot) format('embedded-opentype'),
+    url(../fonts/TTLakes-Medium.woff) format('woff'),
+    url(../fonts/TTLakes-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Lakes', 'Arial', 'sans-serif';
+  background-color: #c2c2c2;
+  color: $black;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+.button {
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.other-wrapper {
+  display: flex;
+  height: 100%;
+  background: fixed;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.contant-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #f8f8f8;
+}
+
+@media (min-width: 1440px) {
+  .contant-wrapper {
+    max-width: 1120px;
+  }
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: clamp(1rem, 3.125vw, 2rem);
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.overflowVisible {
+  overflow: visible;
+  height: auto;
+}
+
+@import '/src/scss/var.scss';
+@import '/scss/aside-menu.scss';
+@import '/scss/header.scss';
+@import '/scss/page-title.scss';
+@import '/scss/navigation-block.scss';
+@import '/scss/info-block.scss';
+@import '/scss/repair-block.scss';
+@import '/scss/tech-block.scss';
+@import '/scss/service-block.scss';
+@import '/scss/footer.scss';
+@import '/scss/modal-call.scss';
+@import '/scss/modal-feedback.scss';

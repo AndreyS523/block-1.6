@@ -1,0 +1,52 @@
+.page-title {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    &__text::before {
+    content: '';
+    position: absolute;
+    align-self: center;
+    border-left: 6px solid $gainGreen;
+    border-radius: 6px;
+    width: 6px;
+    height: 2.5rem;
+    left: calc(clamp(1rem, 3.125vw, 2rem)* -1.1);
+    }
+
+    &__text {
+        font-family: TT Lakes;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        text-align: left;
+        color: $black;
+    }
+
+    &__btn-box {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .page-title {
+
+        &__btn-box {
+            display: flex;
+        }
+        &__btn {
+            display: flex;
+        }
+        &__btn > span {
+            align-self: center;
+        }
+        &__btn > img {
+            margin-left: 0.5rem;
+        }
+        &__search-btn {
+            margin-left: 2rem;
+        }
+
+    }
+
+}

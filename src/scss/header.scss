@@ -1,0 +1,46 @@
+.header {
+    background: #fff;
+    border-bottom: 1px solid $lightGreen;
+    width: 100%;
+    padding: clamp(1rem, 3.125vw, 2rem);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+
+    &__nav-1 {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    &__nav-2 {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    &__contacts-box-1,
+    &__contacts-box-2 {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        &__contacts-box-1 {
+            display: none;
+        }
+        &__divider-first {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        display: none;
+    }
+}
