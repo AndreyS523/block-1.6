@@ -415,7 +415,7 @@ a {
   display: block;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/img/expand.svg);
+  background-image: url(./static/expand.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -936,7 +936,7 @@ a {
   width: min(100%, 27.5rem);
   min-height: 100lvh;
   padding: clamp(1.5rem, 3.125vw, 2.5rem) clamp(1rem, 3.125vw, 2rem);
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .modal-call__form-top-wrapper {
   display: flex;
@@ -948,7 +948,7 @@ a {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(/img/burger-close.svg);
+  background-image: url(./static/burger-close.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1014,7 +1014,7 @@ a {
 .modal-call__form-submit-arrow {
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/img/goside.svg);
+  background-image: url(./static/goside.svg);
 }
 
 @media (min-width: 321px) {
@@ -1071,7 +1071,7 @@ a {
   width: min(100%, 27.5rem);
   min-height: 100lvh;
   padding: clamp(1.5rem, 3.125vw, 2.5rem) clamp(1rem, 3.125vw, 2rem);
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .modal-feedback__form-top-wrapper {
   display: flex;
@@ -1083,7 +1083,7 @@ a {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(/img/burger-close.svg);
+  background-image: url(./static/burger-close.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1155,7 +1155,7 @@ a {
 .modal-feedback__form-submit-arrow {
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/img/goside.svg);
+  background-image: url(./static/goside.svg);
 }
 
 @media (min-width: 321px) {
