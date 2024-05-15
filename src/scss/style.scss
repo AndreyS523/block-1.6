@@ -1,3 +1,4 @@
+@import './var.scss';
 @font-face {
   font-family: 'TT Lakes';
   src: url(../fonts/TTLakes-Regular.eot);
@@ -120,15 +121,14 @@ a {
   height: auto;
 }
 
-@import '/src/scss/var.scss';
-@import '/scss/aside-menu.scss';
-@import '/scss/header.scss';
-@import '/scss/page-title.scss';
-@import '/scss/navigation-block.scss';
-@import '/scss/info-block.scss';
-@import '/scss/repair-block.scss';
-@import '/scss/tech-block.scss';
-@import '/scss/service-block.scss';
-@import '/scss/footer.scss';
-@import '/scss/modal-call.scss';
-@import '/scss/modal-feedback.scss';
+@import './aside-menu.scss';
+@import './header.scss';
+@import './page-title.scss';
+@import './navigation-block.scss';
+@import './info-block.scss';
+@import './repair-block.scss';
+@import './tech-block.scss';
+@import './service-block.scss';
+@import './footer.scss';
+@import './modal-call.scss';
+@import './modal-feedback.scss';
