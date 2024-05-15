@@ -534,7 +534,7 @@ a {
     display: block;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url(/img/expand.svg);
+    background-image: url(./static/expand.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -650,7 +650,7 @@ a {
   display: block;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/img/expand.svg);
+  background-image: url(./static/expand.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
